@@ -1,0 +1,23 @@
+{
+    "name": "sms-reminder",
+    "version": "1.0.0",
+    "description": "A lightweight TypeScript library for scheduling SMS reminders.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "sms",
+        "reminder",
+        "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0",
+        "@types/node": "^18.0.0"
+    }
+}
